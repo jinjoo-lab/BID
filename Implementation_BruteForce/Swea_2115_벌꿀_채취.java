@@ -146,13 +146,4 @@ public class Swea_2115_벌꿀_채취 {
         }
     }
 
-    static void print(){
-        for(int i = 1 ; i <= n ; i++){
-            for(int j = 1 ; j<= n ; j++){
-                System.out.print(v[i][j]+" ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-    }
 }
