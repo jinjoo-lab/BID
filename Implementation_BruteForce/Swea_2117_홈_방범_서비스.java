@@ -67,15 +67,15 @@ public class Swea_2117_홈_방범_서비스 {
 
     static void go(int x,int y){
         int[][] v = new int[n+1][n+1];
-        Queue<Solution.Node> q = new ArrayDeque<>();
+        Queue<Node> q = new ArrayDeque<>();
         v[x][y] = 1;
         int count = (board[x][y] == 1) ? 1 : 0;
-        q.add(new Solution.Node(x,y));
+        q.add(new Node(x,y));
 
         int find = 1;
 
         while(!q.isEmpty()){
-            Solution.Node cur = q.poll();
+            Node cur = q.poll();
 
             for(int i = 0; i < 4 ; i++){
                 int nx = cur.x + dx[i];
@@ -102,7 +102,7 @@ public class Swea_2117_홈_방범_서비스 {
                 if(board[nx][ny] == 1)
                     count += 1;
 
-                q.add(new Solution.Node(nx,ny));
+                q.add(new Node(nx,ny));
             }
         }
 
