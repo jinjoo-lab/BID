@@ -5,21 +5,12 @@ import java.io.*;
 
 public class CT_루돌프의_반란 {
 
-    static int n = 0;
-    static int m = 0;
-    static int p = 0;
-    static int c = 0;
-    static int d = 0;
-
-    static int lx,ly;
-
+    static int n,m,p,c,d,lx,ly;
     static Point[] santa;
     static int[] point;
-
     static int[] stun;
     static int[] rdx = {0,0,-1,1,1,1,-1,-1};
     static int[] rdy = {1,-1,0,0,1,-1,1,-1};
-
     static int[][] board;
     static int[] dx = {-1,0,1,0};
     static int[] dy = {0,1,0,-1};
@@ -28,7 +19,6 @@ public class CT_루돌프의_반란 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
         StringBuilder sb = new StringBuilder();
-
 
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
@@ -62,7 +52,7 @@ public class CT_루돌프의_반란 {
 
             lx += rdx[rDir];
             ly += rdy[rDir];
-            
+
 
             if (board[lx][ly] >= 1) {
                 force(true, board[lx][ly], rDir);
@@ -300,7 +290,6 @@ public class CT_루돌프의_반란 {
         }
         return dir;
     }
-
     static int calDis(int x,int y,int nx,int ny){
         return (x - nx) * (x - nx) + (y - ny) * (y - ny);
     }
