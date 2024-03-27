@@ -65,12 +65,10 @@ public class BOJ_12763_지각하면_안_돼 {
 
         pq.add(new Node(1,0,0));
 
-        for(int i = 1 ; i <= n ; i++){
+        for(int i = 2 ; i <= n ; i++){
             for(int j = 0 ; j <= 10000 ; j ++)
                 dp[i][j] = INF;
         }
-
-        dp[1][0] = 0;
 
         while(!pq.isEmpty()) {
             Node cur = pq.poll();
@@ -95,10 +93,18 @@ public class BOJ_12763_지각하면_안_돼 {
                 if(nextT > t || nextM > m)
                     continue;
 
-                if(dp[next.v][nextT] > dp[cur.v][cur.t] + nextM){
-                    dp[next.v][nextT] = dp[cur.v][cur.t] + nextM;
+
+                if(dp[next.v][nextT] >  nextM){
+                    dp[next.v][nextT] =  nextM;
                     pq.add(new Node(next.v,nextT,nextM));
 
+                    for(int i = nextT + 1 ; i <= t; i++){
+                        if(dp[next.v][i] > dp[cur.v][cur.t] + nextM){
+                            dp[next.v][i] = dp[cur.v][cur.t] + nextM;
+                        }else{
+                            break;
+                        }
+                    }
                 }
             }
         }
