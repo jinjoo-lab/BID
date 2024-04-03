@@ -5,7 +5,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class BOJ_17143_낚시왕 {
-
     static int result = 0;
     static int n,m,k;
     static Point[][] board;
@@ -44,9 +43,10 @@ public class BOJ_17143_낚시왕 {
         br.close();
     }
 
+    // 상어의 이동
     static Point move(Point cur){
         int rowNum = (n - 2) * 2 + 2;
-        int calNum = (m - 2) * 2 + 2;
+        int calNum = (m - 2) * 2 + 2; // 최대 이동 가능 횟수
 
         int moveCount = 0;
         int nx = cur.x;
@@ -84,22 +84,23 @@ public class BOJ_17143_낚시왕 {
         return false;
     }
 
+    // 상어 이동 + 잡아 먹기
     static void go(){
         Point[][] tmpBoard = new Point[n+1][m+1];
 
         for(int i = 1 ; i <= n ; i++){
             for(int j = 1 ; j <= m ; j++){
                 if(board[i][j] != null){
-                    Point tmp = move(board[i][j]);
+                    Point tmp = move(board[i][j]); // 해당 상어가 이동했을 때
 
                     if(tmpBoard[tmp.x][tmp.y] == null || tmpBoard[tmp.x][tmp.y].z < tmp.z){
-                        tmpBoard[tmp.x][tmp.y] = tmp;
+                        tmpBoard[tmp.x][tmp.y] = tmp; // 비어있는 칸이거나 더 큰 상어가 없다면
                     }
                 }
             }
         }
 
-        copy(tmpBoard);
+        copy(tmpBoard); // 배열 교체
     }
 
     static void copy(Point[][] tmp){
@@ -110,6 +111,7 @@ public class BOJ_17143_낚시왕 {
         }
     }
 
+    // 해당 열에서 가장 작은 행의 상어 (낚시왕의 낚시)
     static void take(int idx){
 
         int tIdx = 0;
@@ -129,6 +131,7 @@ public class BOJ_17143_낚시왕 {
         board[tIdx][idx] = null;
     }
 
+    // 방향 전환
     static int changeD(int cur){
         if(cur == 1)
             return 2;
