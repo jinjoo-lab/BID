@@ -62,6 +62,7 @@ public class CT_술래_잡기 {
         for(int turn = 1 ; turn <= k ; turn++){
             allMove();
             catcherMove(turn);
+            System.out.println(result);
         }
 
         System.out.println(result);
