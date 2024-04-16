@@ -34,45 +34,24 @@ public class BOJ_21943_연산_최대로 {
         System.out.println(result);
         br.close();
     }
-    static int cal(int v1,int v2,int op){
-        if(op == 1)
-            return v1 + v2;
-
-        return v1 * v2;
-    }
-
-    static int calAll(){
-        int len = 2*n - 1;
-        int[][] dp = new int[len + 1][len + 1];
-
-        for(int i = 1 ; i <= len ; i+=2){
-            dp[i][i] = perBoard[i];
-        }
-
-        for(int i = 1 ; i < len ; i+=2){
-            dp[i][i+2] = cal(perBoard[i],perBoard[i+2],perBoard[i+1]);
-        }
-
-        for(int k = 4; k <= len ; k+= 2){
-            for(int i = 1 ; i <= len - k ; i+= 2){
-
-                if(i + k > len)
-                    continue;
-
-                for(int j = i ; j < i+k; j+= 2){
-                    dp[i][i+k] = Math.max(dp[i][i+k],cal(dp[i][j],dp[j+2][i+k],perBoard[j+1]));
-                }
-            }
-        }
-
-        return dp[1][len];
-    }
-
     static int result = 0;
     static void comb(int depth,int cnt){
         if(depth > 2*n - 2) {
             if (cnt == p) {
-                result = Math.max(result,calAll());
+                int num = perBoard[1];
+                int tmpResult = 1;
+
+                for(int i = 2 ; i <= 2*n - 2 ; i+=2){
+                    if(perBoard[i] == 0){
+                        tmpResult *= num;
+                        num = perBoard[i+1];
+                    }else{
+                        num += perBoard[i+1];
+                    }
+                }
+
+                tmpResult *= num;
+                result = Math.max(result,tmpResult);
             }
             return;
         }
