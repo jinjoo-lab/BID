@@ -6,7 +6,7 @@ import java.io.*;
 public class BOJ_3066_브리징_시그널 {
 
     static int t,n;
-    static int[][] board;
+    static int[][] input;
 
     static int[] dp;
 
@@ -20,27 +20,27 @@ public class BOJ_3066_브리징_시그널 {
             st = new StringTokenizer(br.readLine()," ");
             n = Integer.parseInt(st.nextToken());
 
-            board = new int[n+1][2];
+            input = new int[n+1][2];
             dp = new int[n+1];
 
             for(int i = 1 ; i <= n ; i++){
                 int tmp = Integer.parseInt(br.readLine());
 
-                board[i][0] = i;
-                board[i][1] = tmp;
+                input[i][0] = i;
+                input[i][1] = tmp;
             }
 
-            dp[1] = board[1][1];
+            dp[1] = input[1][1];
             int i = 2;
             int j=  1;
 
             while(i <= n){
-                if(board[i][1] > dp[j]){
-                    dp[j+1] = board[i][1];
+                if(input[i][1] > dp[j]){
+                    dp[j+1] = input[i][1];
                     j++;
                 }else{
-                    int idx = bs(1,j,board[i][1]);
-                    dp[idx] = board[i][1];
+                    int idx = binarySearch(1,j,input[i][1]);
+                    dp[idx] = input[i][1];
                 }
 
                 i++;
@@ -60,19 +60,18 @@ public class BOJ_3066_브리징_시그널 {
         System.out.println();
     }
 
-    static int bs(int l,int r,int target){
+    static int binarySearch(int left,int right,int target){
         int mid = 0;
 
-        while(l < r){
-            mid = (l + r) / 2;
+        while(left < right){
+            mid = (left + right) / 2;
 
             if(dp[mid] > target){
-                r = mid;
+                right = mid;
             }else{
-                l = mid + 1;
+                left = mid + 1;
             }
         }
-
-        return r;
+        return right;
     }
 }
