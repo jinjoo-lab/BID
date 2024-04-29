@@ -4,43 +4,39 @@ import java.util.*;
 import java.io.*;
 
 public class BOJ_3066_브리징_시그널 {
-
     static int t,n;
-    static int[][] input;
-
+    static int[] input;
     static int[] dp;
-
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine()," ");
         StringBuilder sb = new StringBuilder();
         t = Integer.parseInt(st.nextToken());
 
-        for(int a = 1 ; a <= t ; a++){
+        for(int tk = 1 ; tk <= t ; tk++){
             st = new StringTokenizer(br.readLine()," ");
             n = Integer.parseInt(st.nextToken());
 
-            input = new int[n+1][2];
+            input = new int[n+1];
             dp = new int[n+1];
 
             for(int i = 1 ; i <= n ; i++){
                 int tmp = Integer.parseInt(br.readLine());
 
-                input[i][0] = i;
-                input[i][1] = tmp;
+                input[i] = tmp;
             }
 
-            dp[1] = input[1][1];
+            dp[1] = input[1];
             int i = 2;
             int j=  1;
 
             while(i <= n){
-                if(input[i][1] > dp[j]){
-                    dp[j+1] = input[i][1];
+                if(input[i] > dp[j]){
+                    dp[j+1] = input[i];
                     j++;
                 }else{
-                    int idx = binarySearch(1,j,input[i][1]);
-                    dp[idx] = input[i][1];
+                    int idx = binarySearch(1,j,input[i]);
+                    dp[idx] = input[i];
                 }
 
                 i++;
@@ -49,29 +45,20 @@ public class BOJ_3066_브리징_시그널 {
             sb.append(j+"\n");
         }
         System.out.print(sb);
-
         br.close();
     }
-
-    static void print(){
-        for(int i = 1 ; i <= n ; i++){
-            System.out.print(dp[i]+" ");
-        }
-        System.out.println();
-    }
-
     static int binarySearch(int left,int right,int target){
         int mid = 0;
 
-        while(left < right){
+        while(left <= right){
             mid = (left + right) / 2;
 
             if(dp[mid] > target){
-                right = mid;
+                right = mid - 1;
             }else{
                 left = mid + 1;
             }
         }
-        return right;
+        return left;
     }
 }
