@@ -6,7 +6,6 @@ import java.io.*;
 public class BOJ_14466_소가_길을_건너간_이유_SIX {
 
     static int n,k,r;
-
     static int[] dx = {0,0,-1,1};
     static int[] dy = {1,-1,0,0};
     static int[][] cow;
