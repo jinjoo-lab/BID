@@ -20,7 +20,7 @@ public class BOJ_2931_가스관 {
     static int[] dx = {0,0,-1,1};
     static int[] dy = {1,-1,0,0};
 
-    static Queue<Node> q = new LinkedList<>();
+    static Queue<NodeF> q = new LinkedList<>();
     static boolean[][][] v;
 
     static int findX,findY;
@@ -67,7 +67,7 @@ public class BOJ_2931_가스관 {
 
             if(board[nx][ny] != '.') {
                 mDir = i;
-                q.add(new Node(mX, mY, mDir));
+                q.add(new NodeF(mX, mY, mDir));
                 v[mX][mY][i] = true;
             }
         }
@@ -141,7 +141,7 @@ public class BOJ_2931_가스관 {
     static void find(){
 
         while(!q.isEmpty()){
-            Node cur = q.poll();
+            NodeF cur = q.poll();
 
             int nx = cur.x + dx[cur.dir];
             int ny = cur.y + dy[cur.dir];
@@ -184,7 +184,7 @@ public class BOJ_2931_가스관 {
 
             if(!v[nx][ny][nDir]){
                 v[nx][ny][nDir] = true;
-                q.add(new Node(nx,ny,nDir));
+                q.add(new NodeF(nx,ny,nDir));
             }
         }
 
