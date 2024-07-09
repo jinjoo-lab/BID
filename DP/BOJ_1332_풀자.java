@@ -29,11 +29,55 @@ public class BOJ_1332_풀자 {
 
         result = n;
 
-        int[][][] dp = new int[55][51][51];
-        dp[0][0][0]=1;
+        int[][] dp = new int[n+1][3];
 
+        dp[1][0] = 1;
+        dp[1][1] = board[1];
+        dp[1][2] = board[1];
 
+        for(int i =2 ; i <= n ; i++) {
+            dp[i][0] = 101;
+        }
 
+        for(int i = 2 ; i <= n ; i++) {
+            if(i - 1 >= 1) {
+                if(dp[i][0] > dp[i-1][0] + 1) {
+                    dp[i][0] = dp[i-1][0] + 1;
+                    dp[i][1] = Math.max(dp[i - 1][1], board[i]);
+                    dp[i][2] = Math.min(dp[i-1][2],board[i]);
+
+                    if(dp[i][1] - dp[i][2] >= v) {
+                        result = Math.min(result,dp[i][0]);
+                    }
+                }else if(dp[i][0] == dp[i-1][0] + 1) {
+                    dp[i][1] = Math.max(dp[i - 1][1], board[i]);
+                    dp[i][2] = Math.min(dp[i-1][2],board[i]);
+
+                    if(dp[i][1] - dp[i][2] >= v) {
+                        result = Math.min(result,dp[i][0]);
+                    }
+                }
+            }
+
+            if(i - 2 >= 1) {
+                if(dp[i][0] > dp[i-2][0] + 1) {
+                    dp[i][0] = dp[i-2][0] + 1;
+                    dp[i][1] = Math.max(dp[i - 2][1], board[i]);
+                    dp[i][2] = Math.min(dp[i-2][2],board[i]);
+
+                    if(dp[i][1] - dp[i][2] >= v) {
+                        result = Math.min(result,dp[i][0]);
+                    }
+                }else if(dp[i][0] == dp[i-2][0] + 1) {
+                    dp[i][1] = Math.max(dp[i - 2][1], board[i]);
+                    dp[i][2] = Math.min(dp[i-2][2],board[i]);
+
+                    if(dp[i][1] - dp[i][2] >= v) {
+                        result = Math.min(result,dp[i][0]);
+                    }
+                }
+            }
+        }
 
 
         System.out.println(result);
