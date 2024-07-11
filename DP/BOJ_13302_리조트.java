@@ -19,11 +19,13 @@ public class BOJ_13302_리조트 {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
 
-        st = new StringTokenizer(br.readLine()," ");
-        for(int i = 0 ; i < m ; i++) {
-            int curDay = Integer.parseInt(st.nextToken());
+        if(m != 0) {
+            st = new StringTokenizer(br.readLine(), " ");
+            for (int i = 0; i < m; i++) {
+                int curDay = Integer.parseInt(st.nextToken());
 
-            isRest[curDay] = true;
+                isRest[curDay] = true;
+            }
         }
 
         int[][] dp = new int[n+1][301];
