@@ -13,6 +13,8 @@ public class BOJ_1888_곰팡이 {
     static int[] speed = new int[100_01];
     static int[] dx = {0,0,-1,1};
     static int[] dy = {1,-1,0,0};
+    static int[][] tmpV;
+    static Queue<Node> q = new ArrayDeque<>();
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -29,6 +31,10 @@ public class BOJ_1888_곰팡이 {
 
             for(int j = 1 ; j <= m ; j++) {
                 board[i][j] = arr[j-1] - '0';
+
+                if(board[i][j] != 0) {
+                    q.add(new Node(i,j));
+                }
             }
         }
 
@@ -49,10 +55,78 @@ public class BOJ_1888_곰팡이 {
             root[i] = i;
         }
 
+        int sec = 0;
 
+        if(gNum == 1) {
+            System.out.println(0);
+        }else {
+            while (true) {
+                boolean tmp = go();
+                sec++;
 
+                if (tmp)
+                    break;
+            }
 
+            System.out.println(sec);
+        }
         br.close();
+    }
+
+    static boolean go() {
+        tmpV = new int[n+1][m+1];
+
+        int size = q.size();
+
+        while(size != 0) {
+            Node cur = q.poll();
+            spread(cur.x,cur.y,speed[v[cur.x][cur.y]]);
+            size--;
+        }
+
+        copy();
+
+        HashSet<Integer> set = new HashSet<>();
+        for(int i = 1 ; i <= gNum ; i++) {
+            set.add(find(i));
+        }
+
+        return set.size() == 1;
+    }
+
+
+    static void printParent() {
+        for(int i = 1 ; i <= gNum ; i++) {
+            System.out.print(find(i)+" ");
+        }
+        System.out.println();
+    }
+
+    static void copy() {
+        for(int i = 1 ; i <= n ; i++) {
+            for(int j = 1 ; j <= m ; j++) {
+                if(v[i][j] == 0)
+                    v[i][j] = tmpV[i][j];
+            }
+        }
+    }
+
+    static void spread(int x,int y,int d) {
+
+        int curNum = speed[v[x][y]];
+
+        for(int i = -d ; i <= d ; i++) {
+            for(int j = -d ; j <= d ; j++) {
+                int nx = x + i;
+                int ny = y + j;
+
+                if(!isOut(nx,ny) && board[nx][ny] != 0 && curNum >= speed[v[nx][ny]]) {
+                    board[nx][ny] = Math.max(curNum,board[nx][ny]);
+                    q.add(new Node(nx,ny));
+                }
+            }
+        }
+
     }
 
     static int find(int x) {
@@ -98,7 +172,7 @@ public class BOJ_1888_곰팡이 {
 
     }
 
-    static void print() {
+    static void print(int[][] v) {
         for(int i = 1 ; i <= n ; i++) {
             for(int j = 1 ; j <= m ; j++) {
                 System.out.print(v[i][j]+" ");
@@ -113,5 +187,15 @@ public class BOJ_1888_곰팡이 {
             return true;
 
         return false;
+    }
+
+    static class Node {
+        int x;
+        int y;
+
+        Node(int x,int y) {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
