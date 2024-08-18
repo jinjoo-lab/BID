@@ -1,0 +1,6 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯õøÿÿÿÿ8áã¬Ìü1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8êã¬Ìü1
+W
+java:S1612":Replace this lambda with method reference 'Long::compare'.(ŠƒË‚8æä¬Ìü1
+L	java:S106/"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8‘¸¶Ìü1

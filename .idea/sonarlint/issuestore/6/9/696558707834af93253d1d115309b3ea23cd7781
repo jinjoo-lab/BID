@@ -1,0 +1,21 @@
+
+o	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÕÜ»À
+t	java:S135Ğ"YReduce the total number of break and continue statements in this loop to use at most one.(ş“µŞúÿÿÿÿ
+K
+java:S1066‡"/Merge this if statement with the enclosing one.(Ş±»Üûÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ßØçØ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ
+Y
+java:S1659">Declare "m" and all following declarations on a separate line.(Æ†È‰ıÿÿÿÿ
+E	java:S106O"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ
+E	java:S106W"+Replace this use of System.out by a logger.(©Šùÿÿÿÿ
+E	java:S106Y"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+E	java:S106["+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+X
+java:S1126¾"AReplace this if-then-else statement by a single return statement.(¼ôíô
+i
+java:S3776Ä"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ÚÖá”
+i
+java:S3776ô"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(šöŠå
+o
+java:S2234œ"XParameters to calDis have the same names but not the same order as the method arguments.(¸Å§

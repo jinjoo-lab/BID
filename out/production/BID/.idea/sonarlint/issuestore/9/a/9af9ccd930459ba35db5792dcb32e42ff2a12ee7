@@ -1,0 +1,8 @@
+
+J
+java:S1121@".Extract the assignment out of this expression.(³ŞÏ8Ä‰·€ù1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯óË¢ùÿÿÿÿ8Î‰·€ù1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8Õ‰·€ù1
+[
+java:S1659">Declare "n" and all following declarations on a separate line.(‚ûäò8‚·€ù1
+L	java:S1068"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8à¹€ù1

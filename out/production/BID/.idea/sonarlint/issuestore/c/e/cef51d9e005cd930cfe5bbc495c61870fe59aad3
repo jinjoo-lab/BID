@@ -1,0 +1,9 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ€à´ıÿÿÿÿ8ê„•¹‡2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8ë„•¹‡2
+`
+java:S1659">Declare "m" and all following declarations on a separate line.(÷âÚäÿÿÿÿÿ8°…•¹‡2
+?
+java:S1659""Declare "max2" on a separate line.(ëÑŠÖ8°…•¹‡2
+L	java:S106>"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8´…•¹‡2
+L	java:S106D"+Replace this use of System.out by a logger.(†¦ıúÿÿÿÿ8µ…•¹‡2

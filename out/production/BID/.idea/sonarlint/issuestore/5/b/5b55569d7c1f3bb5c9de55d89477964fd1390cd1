@@ -1,0 +1,20 @@
+
+h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ë­ó38“±ö×2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8™±ö×2
+`
+java:S1659">Declare "m" and all following declarations on a separate line.(¨²±şÿÿÿÿ8²ö×2
+X
+java:S1854"6Remove this useless assignment to local variable "st".(Öƒ“›ÿÿÿÿÿ8•²ö×2
+X
+java:S1854"6Remove this useless assignment to local variable "sy".(‡¾Öıÿÿÿÿ8•²ö×2
+I
+java:S1481"'Remove this unused "sy" local variable.(‡¾Öıÿÿÿÿ8¦²ö×2
+p
+java:S16023"SRemove useless curly braces around statement and then remove useless return keyword(‘ú×ş8¨²ö×2
+L	java:S106>"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8©²ö×2
+M
+java:S1172C"1Remove these unused method parameters "lx", "ly".(Û©Õ%8ª²ö×2
+L	java:S106`"+Replace this use of System.out by a logger.( Àæşşÿÿÿÿ8òÕ†Ø2
+L	java:S106b"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¬²ö×2
+G	java:S106g"+Replace this use of System.out by a logger.(ÁÙ™Á8ôÕ†Ø2
+L	java:S106i"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¬²ö×2

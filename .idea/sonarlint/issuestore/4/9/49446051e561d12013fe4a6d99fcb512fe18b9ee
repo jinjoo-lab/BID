@@ -1,0 +1,8 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€î–Ìùÿÿÿÿ8ÿáÆïû1
+0
+java:S1700l"Rename field "turn"(ù¨®Ü8ˆâÆïû1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8âÆïû1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ8åÆïû1
+L	java:S106e"+Replace this use of System.out by a logger.(À¨Ï—ıÿÿÿÿ8ôÓÌïû1
