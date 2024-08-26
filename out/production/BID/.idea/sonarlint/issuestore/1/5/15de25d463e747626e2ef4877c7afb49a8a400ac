@@ -1,0 +1,8 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(žö‚Ÿ8á¬‚Í˜2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8á¬‚Í˜2
+<
+java:S1659	"Declare "m" on a separate line.(¦Ùï¬8Ž®‚Í˜2
+r
+java:S1149V"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›þöýÿÿÿÿ8’®‚Í˜2
+L	java:S106-"+Replace this use of System.out by a logger.(À¨Ï—ýÿÿÿÿ8š®‚Í˜2
