@@ -333,3 +333,13 @@ e
 5Implementation_BruteForce/BOJ_19535_ㄷㄷㄷㅈ.java,9/5/95252b7febee22d381bc5cf32692bb4329ae0ff0
 e
 5Implementation_BruteForce/BOJ_6590_덧셈_체인.java,1/1/11e9c88a23fa9541a0d3734c3c74018aa6edbece
+e
+5Implementation_BruteForce/BOJ_2461_대표_선수.java,0/3/039df5196ba58a8627635a8fa61eb8e4247271ba
+f
+6Implementation_BruteForce/BOJ_14238_출근_기록.java,d/c/dc259eb1010d51927686db50961fa934032cfc22
+b
+2Implementation_BruteForce/BOJ_15811_복면산.java,5/e/5e2dae3a8e11b00176c4f1807d3f4f1b7db0517e
+k
+;Implementation_BruteForce/BOJ_23300_웹_브라우저_2.java,c/e/cee74450c9352a8bf376126561694ad65f272597
+l
+<Implementation_BruteForce/BOJ_21738_얼음깨기_펭귄.java,5/a/5a4f0b60a6280c5d785f3caea4b91586141bbb76
