@@ -343,3 +343,5 @@ k
 ;Implementation_BruteForce/BOJ_23300_웹_브라우저_2.java,c/e/cee74450c9352a8bf376126561694ad65f272597
 l
 <Implementation_BruteForce/BOJ_21738_얼음깨기_펭귄.java,5/a/5a4f0b60a6280c5d785f3caea4b91586141bbb76
+>
+main/Main.java,2/a/2ad0efaccf66628e1858a4c133e8914e33eb2221
