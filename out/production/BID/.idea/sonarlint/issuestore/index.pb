@@ -345,3 +345,13 @@ l
 <Implementation_BruteForce/BOJ_21738_얼음깨기_펭귄.java,5/a/5a4f0b60a6280c5d785f3caea4b91586141bbb76
 >
 main/Main.java,2/a/2ad0efaccf66628e1858a4c133e8914e33eb2221
+N
+DP/BOJ_1943_동전_분배.java,d/2/d2ef6869e2b0e04bec756bb907fe6f3300cdbf17
+c
+3Implementation_BruteForce/BOJ_22945_팀_빌딩.java,c/e/ce8b85ff65a4d5465fe638d171e218bfb68d1804
+p
+@Implementation_BruteForce/BOJ_27210_신을_모시는_사당.java,d/5/d566cc9eabc7e56ba21bd35a81e57c6f025d5658
+o
+?Implementation_BruteForce/BOJ_18114_불랙_프라이데이.java,4/f/4fb79de84aa48cd2a6a5fa07217e9cbfda466595
+l
+<Implementation_BruteForce/BOJ_17179_케이크_자르기.java,7/f/7f536c089b355efed7dbaa404a201b700d8d4016
