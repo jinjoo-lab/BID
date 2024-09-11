@@ -363,3 +363,5 @@ b
 2Implementation_BruteForce/CT_코드트리_빵.java,b/1/b1ad380de3f5e477862241e6a797139891f1056f
 k
 ;Implementation_BruteForce/BOJ_2879_코딩은_예쁘게.java,2/2/22d273f70ea20757bf176a6a21301acebfc86aa3
+T
+$DP/BOJ_19623_회의실_배정_4.java,4/0/40c31e681506535948fdac938a46db87e06117f6

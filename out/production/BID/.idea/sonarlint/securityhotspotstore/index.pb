@@ -355,3 +355,13 @@ c
 3Implementation_BruteForce/BOJ_22945_팀_빌딩.java,c/e/ce8b85ff65a4d5465fe638d171e218bfb68d1804
 l
 <Implementation_BruteForce/BOJ_17179_케이크_자르기.java,7/f/7f536c089b355efed7dbaa404a201b700d8d4016
+l
+<Implementation_BruteForce/BOJ_25376_이상한_스위치.java,7/c/7cb03e585258728f977e14a9b2c0225b366fbbcc
+^
+.Implementation_BruteForce/BOJ_1344_축구.java,1/b/1b9b3549a2d0e65143b4a65cd172af84fa449698
+b
+2Implementation_BruteForce/CT_코드트리_빵.java,b/1/b1ad380de3f5e477862241e6a797139891f1056f
+k
+;Implementation_BruteForce/BOJ_2879_코딩은_예쁘게.java,2/2/22d273f70ea20757bf176a6a21301acebfc86aa3
+T
+$DP/BOJ_19623_회의실_배정_4.java,4/0/40c31e681506535948fdac938a46db87e06117f6

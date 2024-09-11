@@ -363,3 +363,5 @@ l
 .Implementation_BruteForce/BOJ_1344_축구.java,1/b/1b9b3549a2d0e65143b4a65cd172af84fa449698
 k
 ;Implementation_BruteForce/BOJ_2879_코딩은_예쁘게.java,2/2/22d273f70ea20757bf176a6a21301acebfc86aa3
+T
+$DP/BOJ_19623_회의실_배정_4.java,4/0/40c31e681506535948fdac938a46db87e06117f6
