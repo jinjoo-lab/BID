@@ -126,15 +126,4 @@ public class BOJ_24888_노트_조각 {
             this.c = c;
         }
     }
-
-    static class Point {
-        int v;
-        int num;
-
-
-        Point(int v, int num) {
-            this.v = v;
-            this.num = num;
-        }
-    }
 }
