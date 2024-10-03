@@ -365,3 +365,45 @@ k
 ;Implementation_BruteForce/BOJ_2879_코딩은_예쁘게.java,2/2/22d273f70ea20757bf176a6a21301acebfc86aa3
 T
 $DP/BOJ_19623_회의실_배정_4.java,4/0/40c31e681506535948fdac938a46db87e06117f6
+O
+DP/BOJ_28218_격자_게임.java,b/c/bc52dd922fa7737359829541a225f036222f4175
+k
+;Implementation_BruteForce/BOJ_1477_휴게소_세우기.java,8/7/8759200c8109ab5ac0a0d09edaea6abb760caf82
+d
+4Implementation_BruteForce/BOJ_2585_경비행기.java,6/3/63b3d5b4a4ce9390099983de20d12c1cd36fd90e
+S
+#DP/BOJ_9527_1의_개수_세기.java,c/9/c94e8ecdab62fa32d5b243eef07d477ad205c471
+h
+8Implementation_BruteForce/BOJ_23749_카드컨트롤.java,9/2/921088ae7320d0f33e7477f8d346d6959eb8ea27
+p
+@Implementation_BruteForce/BOJ_19566_수열의_구간_평균.java,0/c/0c6474e9a69ba42babc973e3307e23692c8a62af
+O
+DP/BOJ_11062_카드_게임.java,c/3/c3e06880f6bcc56fbafa6a75d12e59e3d515e48a
+R
+"DP/BOJ_16500_문자열_판별.java,1/e/1e5627ed0b908b0f896af7176531c0c3cd771aac
+O
+DP/BOJ_15483_최소_편집.java,4/5/456958a5585b06b29837a5b792684516216b5e62
+X
+(DP/BOJ_1633_최고의_팀_만들기.java,6/f/6fc08374af073e89bdd2f73d0d4c43ef6a415cd8
+T
+$DP/BOJ_2624_동전_바꿔주기.java,c/e/ce8f003a049baae90d1b26ff76572167a854391c
+J
+DP/BOJ_2300_기지국.java,6/7/679d7a60ca01089698060c44683ff678d8a53a53
+e
+5Implementation_BruteForce/BOJ_2479_경로_찾기.java,d/9/d9212afa25fcf83c88875d772eaad1d5f5d15a82
+m
+=Implementation_BruteForce/BOJ_1099_알_수_없는_문장.java,1/c/1c6f64e7ccfe6fd94acf69dfdf50de27bc588257
+y
+IImplementation_BruteForce/BOJ_20183_골목_대장_호석_효율성_2.java,3/1/317526e349f819d629df96924e5ebd3e277b9289
+E
+MainPackage/Main.java,f/e/fe3fa3680ea5bf1aae5a9056f5315bb97c7d6b43
+J
+MainPackage/NlogNSort.java,a/d/adc28588de34096fbba08d3e6e41ba1f18580809
+f
+6Implementation_BruteForce/BOJ_24888_노트_조각.java,0/2/02bb7ef6f76aabd9c2674c415743471b76e2d179
+k
+;Implementation_BruteForce/BOJ_1736_쓰레기_치우기.java,8/2/82ae187dc02ac8d0e759c985ec8f28e7d6dedd4b
+o
+?Implementation_BruteForce/BOJ_25187_고인물이_싫어요.java,e/c/ec4f3e7a0aefc078d92336cc8c6600e60234441c
+f
+6Implementation_BruteForce/BOJ_16498_작은_벌점.java,4/9/49ee6ff05f5f9813416bda3867eaa2ce07bae94b
