@@ -403,3 +403,9 @@ f
 6Implementation_BruteForce/BOJ_24888_노트_조각.java,0/2/02bb7ef6f76aabd9c2674c415743471b76e2d179
 k
 ;Implementation_BruteForce/BOJ_1736_쓰레기_치우기.java,8/2/82ae187dc02ac8d0e759c985ec8f28e7d6dedd4b
+o
+?Implementation_BruteForce/BOJ_25187_고인물이_싫어요.java,e/c/ec4f3e7a0aefc078d92336cc8c6600e60234441c
+f
+6Implementation_BruteForce/BOJ_16498_작은_벌점.java,4/9/49ee6ff05f5f9813416bda3867eaa2ce07bae94b
+�
+`Implementation_BruteForce/BOJ_23634_미안하다_이거_보여주려고_어그로_끌었다.java,5/4/54b9ee3ff0bb162e980d6a8e38a271a67bc84dac
