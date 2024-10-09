@@ -409,3 +409,9 @@ f
 6Implementation_BruteForce/BOJ_16498_작은_벌점.java,4/9/49ee6ff05f5f9813416bda3867eaa2ce07bae94b
 �
 `Implementation_BruteForce/BOJ_23634_미안하다_이거_보여주려고_어그로_끌었다.java,5/4/54b9ee3ff0bb162e980d6a8e38a271a67bc84dac
+i
+9Implementation_BruteForce/BOJ_14677_병약한_윤호.java,7/7/778942e706a2c50416be5a90a53d64c99360da6c
+f
+6Implementation_BruteForce/BOJ_31863_내진_설계.java,b/4/b4eae4c62281e21a362afb6050c39ef49f15c87b
+^
+.Implementation_BruteForce/BOJ_1430_공격.java,a/b/abce0182b9a9aba64d12bc4f1c36b1219d41aead
