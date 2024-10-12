@@ -415,3 +415,15 @@ f
 6Implementation_BruteForce/BOJ_31863_내진_설계.java,b/4/b4eae4c62281e21a362afb6050c39ef49f15c87b
 ^
 .Implementation_BruteForce/BOJ_1430_공격.java,a/b/abce0182b9a9aba64d12bc4f1c36b1219d41aead
+i
+9Implementation_BruteForce/BOJ_16924_십자가_찾기.java,2/c/2cc67cb9db89c6a5a1b65f9b16e9c19735d05cc1
+b
+2Implementation_BruteForce/BOJ_2932_표_회전.java,0/0/00f84ba7d35ef5ebf130a389923c2d57455d07ed
+i
+9Implementation_BruteForce/BOJ_22234_가희와_은행.java,e/4/e4c654f5fe6f630c86e8e8098dfbbd16b7283ee8
+k
+;Implementation_BruteForce/BOJ_1713_후보_추천하기.java,3/3/333f1daa615617044e513e57f533577f6b85398a
+u
+EImplementation_BruteForce/BOJ_3089_네잎_클로버를_찾아서.java,e/1/e1d1d31b4b76e99bf8ed084f4a2ec43da4df07a9
+h
+8Implementation_BruteForce/BOJ_2917_늑대_사냥꾼.java,e/4/e422b1d16aa34dde5e6896a428c1dd1f0e8e8302
