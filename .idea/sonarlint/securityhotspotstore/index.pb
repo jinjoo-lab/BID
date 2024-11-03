@@ -435,3 +435,5 @@ c
 3Implementation_BruteForce/BOJ_17089_세_친구.java,4/f/4f5b9b55bca11ca1ce756978994801e78cbbb6b6
 f
 6Implementation_BruteForce/BOJ_14391_종이_조각.java,6/0/605603a92b6481bb396f498e7df51f90077d3c0e
+k
+;Implementation_BruteForce/BOJ_1114_통나무_자르기.java,a/9/a96e29813c755d15f46239e2a5fabd89597fe209

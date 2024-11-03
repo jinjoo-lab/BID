@@ -435,3 +435,5 @@ r
 BImplementation_BruteForce/BOJ_14369_전화번호_수수께끼.java,d/0/d0bfa48b7b5c91d57fc77b47afd2af9983491206
 r
 BImplementation_BruteForce/BOJ_29792_규칙적인_보스돌이.java,2/d/2d51ec9bb74f7f49fab2181975c3adb9e224907e
+k
+;Implementation_BruteForce/BOJ_1114_통나무_자르기.java,a/9/a96e29813c755d15f46239e2a5fabd89597fe209
