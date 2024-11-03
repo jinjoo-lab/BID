@@ -1,0 +1,10 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(äçÈÖ8Öââü§2
+h
+java:S21846"FCast one of the operands of this multiplication operation to a "long".(×Íø‡úÿÿÿÿ8Öââü§2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8×ââü§2
+p
+java:S30086"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Íø‡úÿÿÿÿ8İââü§2
+`
+java:S1659">Declare "m" and all following declarations on a separate line.(Ù¼™şøÿÿÿÿ8İââü§2
+L	java:S106-"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8¹Ãùü§2

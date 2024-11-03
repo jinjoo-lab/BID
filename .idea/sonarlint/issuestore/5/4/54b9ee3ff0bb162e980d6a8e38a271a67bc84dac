@@ -1,0 +1,26 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(­©åêùÿÿÿÿ
+J
+java:S1121õ".Extract the assignment out of this expression.(Öìàæıÿÿÿÿ
+s	java:S135V"YReduce the total number of break and continue statements in this loop to use at most one.(ı­Ïüÿÿÿÿ
+t	java:S135¥"YReduce the total number of break and continue statements in this loop to use at most one.(ş“µŞúÿÿÿÿ
+t	java:S135Ğ"YReduce the total number of break and continue statements in this loop to use at most one.(ş“µŞúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ü÷•ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ
+Y
+java:S1659">Declare "m" and all following declarations on a separate line.(ô·¸ÿÿÿÿÿ
+7
+java:S1659""Declare "will" on a separate line.(‹Ïó1
+?	java:S1061"+Replace this use of System.out by a logger.(Î´öd
+E	java:S106J"+Replace this use of System.out by a logger.(¿İşÌıÿÿÿÿ
+m
+java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(…¾æ™ıÿÿÿÿ
+A	java:S106Œ"+Replace this use of System.out by a logger.(ü”“ô
+F	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+F	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+n
+java:S3776“"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(òşŒüÿÿÿÿÿ
+n
+java:S3776Â"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(­„³¾ûÿÿÿÿ
+F	java:S106ì"+Replace this use of System.out by a logger.(Ç¥Äƒÿÿÿÿÿ
+F	java:S106î"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ

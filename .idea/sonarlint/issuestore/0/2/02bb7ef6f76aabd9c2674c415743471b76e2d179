@@ -1,0 +1,15 @@
+
+u	java:S135B"YReduce the total number of break and continue statements in this loop to use at most one.(„ÿ° 8•õœÈ¡2
+Q
+java:S1066V"/Merge this if statement with the enclosing one.(Ğ°¡üÿÿÿÿ8ú¤È¡2
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜íŞ8•õœÈ¡2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8—õœÈ¡2
+<
+java:S1659"Declare "m" on a separate line.(¦Ùï¬8ÎõœÈ¡2
+r
+java:S1149_"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8ÎõœÈ¡2
+t
+java:S37762"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(…¾æ™ıÿÿÿÿ8ÑõœÈ¡2
+G	java:S106l"+Replace this use of System.out by a logger.(ñ†ÚÓ8ÒõœÈ¡2
+L	java:S106q"+Replace this use of System.out by a logger.(­ËÖşÿÿÿÿ8ÓõœÈ¡2
+L	java:S106s"+Replace this use of System.out by a logger.(¡ò†şÿÿÿÿ8ÓõœÈ¡2

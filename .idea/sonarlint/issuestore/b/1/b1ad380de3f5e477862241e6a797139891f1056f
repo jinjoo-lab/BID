@@ -1,0 +1,28 @@
+
+s	java:S135z"YReduce the total number of break and continue statements in this loop to use at most one.(ı­Ïüÿÿÿÿ
+t	java:S135¡"YReduce the total number of break and continue statements in this loop to use at most one.(ı­Ïüÿÿÿÿ
+t	java:S135Ú"YReduce the total number of break and continue statements in this loop to use at most one.(ı­Ïüÿÿÿÿ
+K
+java:S1066Ğ"/Merge this if statement with the enclosing one.(ãĞ¦Ïıÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ùâ²Ïûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ
+5
+java:S1659"Declare "m" on a separate line.(¦Ùï¬
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ
+Q	java:S125H"<This block of commented-out lines of code should be removed.(İıƒƒ
+V	java:S125K"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ
+V	java:S125R"<This block of commented-out lines of code should be removed.(›²¸¦şÿÿÿÿ
+?	java:S106W"+Replace this use of System.out by a logger.(è«
+W
+java:S1126e"AReplace this if-then-else statement by a single return statement.(±ñ—
+h
+java:S3776s"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Â¯ªß
+i
+java:S3776´"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Œ›¬™
+F	java:S106ñ"+Replace this use of System.out by a logger.(ÙÈ‰ùÿÿÿÿ
+@	java:S106ó"+Replace this use of System.out by a logger.(ˆŠÛw
+F	java:S106õ"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+F	java:S106÷"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+X
+java:S1126û"AReplace this if-then-else statement by a single return statement.(¼ôíô

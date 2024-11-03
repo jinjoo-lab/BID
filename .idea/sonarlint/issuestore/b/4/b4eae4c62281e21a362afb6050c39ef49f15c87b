@@ -1,0 +1,15 @@
+
+u	java:S135:"YReduce the total number of break and continue statements in this loop to use at most one.(Ç›ÚÃ8Ðû‚¸¦2
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯Çµÿ8Ñû‚¸¦2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£…ÄÊúÿÿÿÿ8Ñû‚¸¦2
+<
+java:S1659"Declare "m" on a separate line.(¦Ùï¬8‹ü‚¸¦2
+B
+java:S1659" Declare "sy" on a separate line.(¿‘Ü¹ùÿÿÿÿ8‹ü‚¸¦2
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 60 to the 15 allowed.(ÙØ¤Þýÿÿÿÿ8ü‚¸¦2
+L	java:S106n"+Replace this use of System.out by a logger.(Ë¢Óñüÿÿÿÿ8ü‚¸¦2
+^
+java:S1126s"AReplace this if-then-else statement by a single return statement.(œŸ¢µ8ü‚¸¦2
+è
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 71 to 64, Complexity from 20 to 14, Nesting Level from 6 to 2, Number of Variables from 15 to 6.(ÙØ¤Þýÿÿÿÿ8ü‚¸¦2
