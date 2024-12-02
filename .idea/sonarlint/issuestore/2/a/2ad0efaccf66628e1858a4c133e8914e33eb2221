@@ -1,2 +1,6 @@
 
-L	java:S106."+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8Ïø›¹¦2
+A
+java:S1659"Declare "k" on a separate line.(„Ãàøÿÿÿÿ8ÿ£¯2
+L	java:S106)"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8º©«¯2
+W
+java:S1612/":Replace this lambda with method reference 'Long::compare'.(ŠƒË‚8¡ÿ£¯2
