@@ -42,18 +42,16 @@ public class BOJ_15831_준표의_조약돌 {
             int curB = sum[r][0] - sum[l][0] + (board[l - 1] == 'B' ? 1 : 0);
             int curW = sum[r][1] - sum[l][1] + (board[l - 1] == 'W' ? 1 : 0);
 
-            if(curB <= b && curW >= w) {
-                result = Math.max(result, r - l + 1);
+            while(curB > b) {
+                l++;
+                if(l > r)
+                    break;
+
+                curB = sum[r][0] - sum[l][0] + (board[l - 1] == 'B' ? 1 : 0);
             }
 
-            while(curB > b && l <= r && l < n) {
-               l++;
-               curB = sum[r][0] - sum[l][0] + (board[l - 1] == 'B' ? 1 : 0);
-               curW = sum[r][1] - sum[l][1] + (board[l - 1] == 'W' ? 1 : 0);
-
-               if(curB <= b && curW >= w) {
-                    result = Math.max(result, r - l + 1);
-               }
+            if(curB <= b && curW >= w) {
+                result = Math.max(result, r - l + 1);
             }
 
             r++;
